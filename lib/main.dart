@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:interview_task/config/colors.dart';
-import 'package:interview_task/view/screens/home_page/home_sceen.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:interview_task/view/screens/navigation_screen.dart';
+import 'package:interview_task/view/screens/new%20task/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -39,7 +38,7 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
         ),
         debugShowCheckedModeBanner: false,
-        home:  Home(),
+        home:  HomePageScreen(),
       ),
     );
   }
